@@ -63,15 +63,19 @@ export default function Home() {
                   Kendali Penuh Tagihan Listrik di Tangan Anda.
                 </motion.h1>
                 <motion.p variants={fadeIn} className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
-                  Transform the lives of millions people into goodness with energy saving. Pantau penggunaan listrik, kontrol perangkat di setiap ruangan, dan lacak daya mandiri yang rumah Anda hasilkan. Tekan tagihan bulanan PLN Anda tanpa repot.
+                  <em>Transform the lives of millions people into goodness with energy saving.</em> Pantau penggunaan listrik, kontrol perangkat di setiap ruangan, dan lacak daya mandiri yang rumah Anda hasilkan. Tekan tagihan bulanan listrik Anda tanpa repot.
                 </motion.p>
                 <motion.div variants={fadeIn} className="flex flex-col sm:flex-row gap-4">
-                  <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 h-14 px-8 text-base shadow-[0_0_30px_rgba(0,240,255,0.3)]">
-                    Hitung Potensi Penghematan Anda
-                  </Button>
-                  <Button size="lg" variant="outline" className="h-14 px-8 text-base border-white/10 hover:bg-white/5">
-                    Pelajari Cara Kerjanya
-                  </Button>
+                  <a href="https://wa.me/6282116140638" target="_blank" rel="noopener noreferrer">
+                    <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 h-14 px-8 text-base shadow-[0_0_30px_rgba(0,240,255,0.3)]">
+                      Hitung Potensi Penghematan Anda
+                    </Button>
+                  </a>
+                  <a href="#solution">
+                    <Button size="lg" variant="outline" className="h-14 px-8 text-base border-white/10 hover:bg-white/5">
+                      Pelajari Cara Kerjanya
+                    </Button>
+                  </a>
                 </motion.div>
               </motion.div>
 
@@ -189,7 +193,7 @@ export default function Home() {
         </section>
 
         {/* SOLUTION SECTION */}
-        <section className="py-24 px-6 relative">
+        <section id="solution" className="py-24 px-6 relative">
           <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/5 blur-[150px] rounded-full pointer-events-none"></div>
           <div className="container mx-auto max-w-4xl text-center relative z-10">
             <motion.h2 
