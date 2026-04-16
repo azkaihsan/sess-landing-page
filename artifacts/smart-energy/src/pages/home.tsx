@@ -36,9 +36,11 @@ export default function Home() {
             </div>
             <span className="font-bold text-xl tracking-tight">SmartEnergy</span>
           </div>
-          <Button variant="outline" className="hidden md:flex border-primary/30 hover:bg-primary/10 hover:text-primary transition-colors">
-            Masuk
-          </Button>
+          <a href="https://wa.me/6285183271214" target="_blank" rel="noopener noreferrer">
+            <Button variant="outline" className="hidden md:flex border-primary/30 hover:bg-primary/10 hover:text-primary transition-colors">
+              Konsultasi Gratis
+            </Button>
+          </a>
         </div>
       </header>
 
@@ -354,9 +356,11 @@ export default function Home() {
               transition={{ delay: 0.1 }}
               className="flex flex-col sm:flex-row items-center justify-center gap-4"
             >
-              <Button size="lg" className="w-full sm:w-auto bg-primary text-primary-foreground hover:bg-primary/90 h-14 px-8 text-base shadow-[0_0_30px_rgba(0,240,255,0.3)]">
-                Konsultasi Instalasi Gratis Sekarang <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
+              <a href="https://wa.me/6285183271214" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 h-14 px-8 text-base shadow-[0_0_30px_rgba(0,240,255,0.3)]">
+                  Konsultasi Gratis Sekarang <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </a>
             </motion.div>
           </div>
         </section>
