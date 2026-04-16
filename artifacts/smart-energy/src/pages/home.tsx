@@ -282,9 +282,6 @@ export default function Home() {
             </div>
             
             <div className="relative">
-              {/* Connecting line */}
-              <div className="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-primary/0 via-primary/50 to-secondary/0 hidden md:block -translate-y-1/2"></div>
-              
               <div className="grid md:grid-cols-3 gap-12 relative z-10">
                 {[
                   {
