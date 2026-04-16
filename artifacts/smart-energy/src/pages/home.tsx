@@ -211,7 +211,7 @@ export default function Home() {
               transition={{ delay: 0.1 }}
               className="text-xl text-muted-foreground leading-relaxed"
             >
-              Tinggalkan cara lama mengecek sakelar satu per satu. Sistem kami menyediakan centralized control panel untuk semua perangkat di rumah Anda. Melalui cloud-based control panel, Anda dapat memegang kendali penuh di mana pun Anda berada.
+              Tinggalkan cara lama mengecek sakelar satu per satu. Sistem kami menyediakan <em>centralized control panel</em> untuk semua perangkat di rumah Anda. Melalui <em>cloud-based control panel</em>, Anda dapat memegang kendali penuh di mana pun Anda berada.
             </motion.p>
           </div>
         </section>
