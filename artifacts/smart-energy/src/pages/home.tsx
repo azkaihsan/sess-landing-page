@@ -233,19 +233,19 @@ export default function Home() {
               {[
                 {
                   title: "Pemantauan Daya Real-Time",
-                  desc: "Lihat Whole House Energy Meter secara langsung. Identifikasi perangkat yang menyedot daya paling besar dan optimalkan penggunaannya.",
+                  desc: <>Lihat <em><strong>Whole House Energy Meter</strong></em> secara langsung. Identifikasi perangkat yang menyedot daya paling besar dan optimalkan penggunaannya.</>,
                   icon: Activity,
                   color: "primary"
                 },
                 {
-                  title: "Lacak Kemandirian Energi (Autonomy)",
-                  desc: "Punya panel surya? Sistem cerdas kami memisahkan data metrik Anda. Pantau secara real-time berapa banyak listrik yang Anda hasilkan (Generate), berapa yang Anda konsumsi (Consume), dan berapa yang masih ditarik dari PLN (From Grid). Semakin tinggi persentase Autonomy Anda, semakin aman dompet Anda!",
+                  title: "Lacak Otonomi Energi",
+                  desc: <>Punya panel surya atau ingin pasang panel surya? Sistem cerdas kami memantau data penghasilan listrik Anda. Pantau secara real-time berapa banyak listrik yang Anda hasilkan, berapa yang Anda konsumsi, dan berapa yang masih diperoleh dari PLN. Semakin tinggi persentase Autonomy Anda, semakin aman dompet Anda!</>,
                   icon: SunMedium,
                   color: "secondary"
                 },
                 {
                   title: "Manajemen Cerdas Berbasis Ruangan",
-                  desc: "Kelola rumah Anda per zona. Pantau dan matikan atau nyalakan perangkat secara spesifik di ruangan mana pun, dari Living Room, Master Bedroom, hingga Kitchen.",
+                  desc: <>Kelola rumah Anda per zona. Pantau dan matikan atau nyalakan perangkat secara spesifik di ruangan mana pun, dari Living Room, Master Bedroom, hingga Kitchen.</>,
                   icon: HomeIcon,
                   color: "primary"
                 }
