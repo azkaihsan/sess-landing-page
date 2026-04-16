@@ -239,13 +239,13 @@ export default function Home() {
                 },
                 {
                   title: "Lacak Otonomi Energi",
-                  desc: <>Punya panel surya atau ingin pasang panel surya? Sistem cerdas kami memantau data penghasilan listrik Anda. Pantau secara real-time berapa banyak listrik yang Anda hasilkan, berapa yang Anda konsumsi, dan berapa yang masih diperoleh dari PLN. Semakin tinggi persentase Autonomy Anda, semakin aman dompet Anda!</>,
+                  desc: <>Punya panel surya atau ingin pasang panel surya? Sistem cerdas kami memantau data penghasilan listrik Anda. Pantau secara real-time berapa banyak listrik yang Anda hasilkan, berapa yang Anda konsumsi, dan berapa yang masih diperoleh dari PLN. Semakin tinggi persentase otonomi Anda, semakin aman dompet Anda!</>,
                   icon: SunMedium,
                   color: "secondary"
                 },
                 {
                   title: "Manajemen Cerdas Berbasis Ruangan",
-                  desc: <>Kelola rumah Anda per zona. Pantau dan matikan atau nyalakan perangkat secara spesifik di ruangan mana pun, dari Living Room, Master Bedroom, hingga Kitchen.</>,
+                  desc: <>Kelola rumah Anda per zona. Pantau dan matikan atau nyalakan perangkat secara spesifik di ruangan mana pun, dari <em>Living Room</em>, <em>Master Bedroom</em>, hingga <em>Kitchen</em>.</>,
                   icon: HomeIcon,
                   color: "primary"
                 }
