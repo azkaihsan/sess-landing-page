@@ -1,0 +1,56 @@
+landing page Smart Energy & Saving System Anda:
+1. Hero Section (Kesan Pertama & Nilai Utama)
+
+Bagian ini harus langsung menangkap perhatian dan menyampaikan visi produk dengan jelas.
+
+    Headline: Kendali Penuh Tagihan Listrik di Tangan Anda.
+
+    Sub-headline: Transform the lives of millions people into goodness with energy saving. Pantau penggunaan listrik, kelola perangkat di setiap ruangan, dan tekan biaya bulanan Anda tanpa repot.
+
+    Primary CTA: Coba Kalkulator Penghematan / Pesan Perangkat Sekarang.
+
+    Visual Suggestion: Animasi interaktif atau mockup aplikasi yang menampilkan "Whole House Energy Meter" yang menunjukkan angka konsumsi daya yang rendah.
+
+2. Agitation Section (Menggali Pain Points)
+
+Sentuh masalah yang sangat relevan dengan pengguna rumahan sehari-hari.
+
+    Headline: Mengapa Membayar Lebih untuk Listrik yang Tidak Anda Gunakan?
+
+    Poin Masalah 1 (Tagihan Bengkak): Tagihan listrik bulanan yang tinggi seringkali menjadi beban yang tidak disadari.
+
+    Poin Masalah 2 (Lupa Mematikan Alat): Kita sering kali terburu-buru dan lupa mematikan AC, lampu, atau TV saat meninggalkan rumah.
+
+3. Solution Section (Memperkenalkan Produk)
+
+Jawab masalah di atas dengan solusi terpusat dari sistem Anda.
+
+    Headline: Satu Aplikasi. Seluruh Rumah. Penghematan Maksimal.
+
+    Body Copy: Tidak perlu lagi mengecek sakelar satu per satu. Sistem kami menyediakan centralized control panel untuk semua perangkat di rumah Anda. Arsitektur cloud kami memastikan Anda selalu terhubung dengan rumah Anda, kapan pun dan di mana pun.
+
+4. Features & Benefits (Mengurai Fitur Menjadi Manfaat)
+
+Alih-alih hanya menyebut fitur teknis, jelaskan apa untungnya bagi Home Owner.
+
+    Pemantauan Daya Real-Time: Lihat Whole House Energy Meter secara langsung. Pahami jam berapa konsumsi listrik Anda paling tinggi dan optimalkan penggunaannya.
+
+    Manajemen Cerdas Berbasis Ruangan: Kelola rumah Anda per zona. Pantau daya secara spesifik, mulai dari Living Room, Master Bedroom, hingga garasi.
+
+    Kendali Jarak Jauh Instan: Matikan alat elektronik yang dibiarkan menyala langsung dari aplikasi di smartphone Anda.
+
+5. How It Works (Alur Sederhana)
+
+Beri gambaran teknis namun tetap ramah konsumen.
+
+    Langkah 1: Pasang & Hubungkan: Pasang smart relay atau colokan pintar kami di panel listrik atau stopkontak Anda.
+
+    Langkah 2: Sinkronisasi Cloud: Buka aplikasi dan integrasikan berbagai perangkat Anda ke dalam satu platform.
+
+    Langkah 3: Pantau & Hemat: Sistem akan secara otomatis membaca metrik energi Anda dan mengirimkannya ke dashboard.
+
+6. Final Call to Action (Dorongan Terakhir)
+
+    Headline: Siap Memangkas Tagihan Listrik Anda Bulan Depan?
+
+    CTA: Jadwalkan Pemasangan / Konsultasi Gratis Sekarang.

@@ -1,0 +1,14 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "6KfqDoU1Wry-tldZvpJLg"
+uri = "file://artifacts/smart-energy/public/images/app-mockup.png"
+type = "image"
+title = "Smart Energy Mobile App Mockup"
+
+[[generated]]
+id = "BcFyLSuNhqbdILkve5Zyf"
+uri = "file://artifacts/smart-energy/public/images/hero-bg.png"
+type = "image"
+title = "Abstract Energy Background"
