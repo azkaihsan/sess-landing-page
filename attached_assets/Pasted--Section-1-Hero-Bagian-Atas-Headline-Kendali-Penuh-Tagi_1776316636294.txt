@@ -1,0 +1,46 @@
+[Section 1: Hero / Bagian Atas]
+
+Headline: Kendali Penuh Tagihan Listrik di Tangan Anda.
+
+Sub-headline: Transform the lives of millions people into goodness with energy saving. Pantau penggunaan listrik, kontrol perangkat di setiap ruangan, dan lacak daya mandiri yang rumah Anda hasilkan. Tekan tagihan bulanan PLN Anda tanpa repot.
+Primary CTA Button: Hitung Potensi Penghematan Anda
+Secondary CTA Button: Pelajari Cara Kerjanya
+[Section 2: Problem / Agitasi Masalah]
+
+Headline: Mengapa Membayar Lebih untuk Listrik yang Tidak Anda Gunakan?
+Teks Pengantar: Mengelola rumah modern seharusnya tidak membuat dompet Anda terkuras. Namun, kenyataannya...
+
+    Tagihan Listrik Membengkak: Biaya listrik yang tinggi sering kali menjadi beban  bulanan yang tidak disadari.
+
+    Pemborosan Tanpa Sengaja: Kadang kala, kita lupa mematikan perangkat  seperti AC atau lampu saat terburu-buru meninggalkan rumah.
+
+[Section 3: Solution / Pengenalan Solusi]
+
+Headline: Satu Aplikasi. Seluruh Rumah. Penghematan Maksimal.
+Teks Pendukung: Tinggalkan cara lama mengecek sakelar satu per satu. Sistem kami menyediakan centralized control panel untuk semua perangkat  di rumah Anda. Melalui cloud-based control panel, Anda dapat memegang kendali penuh di mana pun Anda berada.
+[Section 4: Key Features / Manfaat Utama]
+
+Headline: Lebih Pintar, Lebih Hemat.
+
+    Pemantauan Daya Real-Time: Lihat Whole House Energy Meter  secara langsung. Identifikasi perangkat yang menyedot daya paling besar dan optimalkan penggunaannya.
+
+    Lacak Kemandirian Energi (Autonomy): Punya panel surya? Sistem cerdas kami memisahkan data metrik Anda. Pantau secara real-time berapa banyak listrik yang Anda hasilkan (Generate) , berapa yang Anda konsumsi (Consume) , dan berapa yang masih ditarik dari PLN (From Grid). Semakin tinggi persentase Autonomy  Anda, semakin aman dompet Anda!
+
+    Manajemen Cerdas Berbasis Ruangan: Kelola rumah Anda per zona. Pantau dan matikan atau nyalakan perangkat secara spesifik di ruangan mana pun, dari Living Room , Master Bedroom , hingga Kitchen.
+
+[Section 5: How It Works / Cara Kerja]
+
+Headline: Tiga Langkah Menuju Rumah Pintar
+Visual Suggestion: Ikonografi simpel dengan garis penghubung.
+
+    Instalasi Mudah: Pasang perangkat keras pintar kami di panel atau sakelar rumah Anda.
+
+    Integrasi Platform: Hubungkan semua ruangan dan perangkat  ke dalam satu aplikasi cerdas kami.
+
+    Kendali Penuh: Perangkat keras dapat langsung dikontrol secara jarak jauh dengan smartphone.
+
+[Section 6: Bottom / Final CTA]
+
+Headline: Siap Memangkas Tagihan Listrik Anda Bulan Depan?
+Teks Pendukung: Bergabunglah dengan pemilik rumah cerdas lainnya yang telah memaksimalkan efisiensi energi dan kemandirian daya mereka.
+CTA Button: Konsultasi Instalasi Gratis Sekarang

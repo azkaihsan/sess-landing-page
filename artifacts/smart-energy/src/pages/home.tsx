@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Zap, Activity, Home as HomeIcon, Smartphone, Cloud, ArrowRight, ShieldCheck, BarChart3, Clock } from "lucide-react";
+import { Zap, Activity, Home as HomeIcon, Smartphone, Cloud, ArrowRight, ShieldCheck, BarChart3, Clock, SunMedium } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const fadeIn = {
@@ -61,14 +61,14 @@ export default function Home() {
                   Kendali Penuh Tagihan Listrik di Tangan Anda.
                 </motion.h1>
                 <motion.p variants={fadeIn} className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
-                  Transform the lives of millions people into goodness with energy saving. Pantau penggunaan listrik, kelola perangkat di setiap ruangan, dan tekan biaya bulanan Anda tanpa repot.
+                  Transform the lives of millions people into goodness with energy saving. Pantau penggunaan listrik, kontrol perangkat di setiap ruangan, dan lacak daya mandiri yang rumah Anda hasilkan. Tekan tagihan bulanan PLN Anda tanpa repot.
                 </motion.p>
                 <motion.div variants={fadeIn} className="flex flex-col sm:flex-row gap-4">
                   <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 h-14 px-8 text-base shadow-[0_0_30px_rgba(0,240,255,0.3)]">
-                    Coba Kalkulator Penghematan
+                    Hitung Potensi Penghematan Anda
                   </Button>
                   <Button size="lg" variant="outline" className="h-14 px-8 text-base border-white/10 hover:bg-white/5">
-                    Pesan Perangkat Sekarang
+                    Pelajari Cara Kerjanya
                   </Button>
                 </motion.div>
               </motion.div>
@@ -138,10 +138,19 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-3xl md:text-5xl font-bold mb-16 glow-text-secondary"
+              className="text-3xl md:text-5xl font-bold mb-6 glow-text-secondary"
             >
               Mengapa Membayar Lebih untuk Listrik yang Tidak Anda Gunakan?
             </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="text-lg text-muted-foreground mb-12"
+            >
+              Mengelola rumah modern seharusnya tidak membuat dompet Anda terkuras. Namun, kenyataannya...
+            </motion.p>
             
             <div className="grid md:grid-cols-2 gap-8 text-left">
               <motion.div 
@@ -153,9 +162,9 @@ export default function Home() {
                 <div className="w-14 h-14 rounded-2xl bg-red-500/10 flex items-center justify-center mb-6">
                   <BarChart3 className="w-7 h-7 text-red-400" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-white">Tagihan Bengkak</h3>
+                <h3 className="text-xl font-semibold mb-4 text-white">Tagihan Listrik Membengkak</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Tagihan listrik bulanan yang tinggi seringkali menjadi beban yang tidak disadari.
+                  Biaya listrik yang tinggi sering kali menjadi beban bulanan yang tidak disadari.
                 </p>
               </motion.div>
 
@@ -168,9 +177,9 @@ export default function Home() {
                 <div className="w-14 h-14 rounded-2xl bg-orange-500/10 flex items-center justify-center mb-6">
                   <Clock className="w-7 h-7 text-orange-400" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-white">Lupa Mematikan Alat</h3>
+                <h3 className="text-xl font-semibold mb-4 text-white">Pemborosan Tanpa Sengaja</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Kita sering kali terburu-buru dan lupa mematikan AC, lampu, atau TV saat meninggalkan rumah.
+                  Kadang kala, kita lupa mematikan perangkat seperti AC atau lampu saat terburu-buru meninggalkan rumah.
                 </p>
               </motion.div>
             </div>
@@ -196,7 +205,7 @@ export default function Home() {
               transition={{ delay: 0.1 }}
               className="text-xl text-muted-foreground leading-relaxed"
             >
-              Tidak perlu lagi mengecek sakelar satu per satu. Sistem kami menyediakan centralized control panel untuk semua perangkat di rumah Anda. Arsitektur cloud kami memastikan Anda selalu terhubung dengan rumah Anda, kapan pun dan di mana pun.
+              Tinggalkan cara lama mengecek sakelar satu per satu. Sistem kami menyediakan centralized control panel untuk semua perangkat di rumah Anda. Melalui cloud-based control panel, Anda dapat memegang kendali penuh di mana pun Anda berada.
             </motion.p>
           </div>
         </section>
@@ -204,24 +213,34 @@ export default function Home() {
         {/* FEATURES SECTION */}
         <section className="py-24 px-6">
           <div className="container mx-auto">
+            <div className="text-center mb-16">
+              <motion.h2
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="text-3xl md:text-5xl font-bold"
+              >
+                Lebih Pintar, <span className="text-primary glow-text-primary">Lebih Hemat.</span>
+              </motion.h2>
+            </div>
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
                   title: "Pemantauan Daya Real-Time",
-                  desc: "Lihat Whole House Energy Meter secara langsung. Pahami jam berapa konsumsi listrik Anda paling tinggi dan optimalkan penggunaannya.",
+                  desc: "Lihat Whole House Energy Meter secara langsung. Identifikasi perangkat yang menyedot daya paling besar dan optimalkan penggunaannya.",
                   icon: Activity,
                   color: "primary"
                 },
                 {
-                  title: "Manajemen Cerdas Berbasis Ruangan",
-                  desc: "Kelola rumah Anda per zona. Pantau daya secara spesifik, mulai dari Living Room, Master Bedroom, hingga garasi.",
-                  icon: HomeIcon,
+                  title: "Lacak Kemandirian Energi (Autonomy)",
+                  desc: "Punya panel surya? Sistem cerdas kami memisahkan data metrik Anda. Pantau secara real-time berapa banyak listrik yang Anda hasilkan (Generate), berapa yang Anda konsumsi (Consume), dan berapa yang masih ditarik dari PLN (From Grid). Semakin tinggi persentase Autonomy Anda, semakin aman dompet Anda!",
+                  icon: SunMedium,
                   color: "secondary"
                 },
                 {
-                  title: "Kendali Jarak Jauh Instan",
-                  desc: "Matikan alat elektronik yang dibiarkan menyala langsung dari aplikasi di smartphone Anda.",
-                  icon: Smartphone,
+                  title: "Manajemen Cerdas Berbasis Ruangan",
+                  desc: "Kelola rumah Anda per zona. Pantau dan matikan atau nyalakan perangkat secara spesifik di ruangan mana pun, dari Living Room, Master Bedroom, hingga Kitchen.",
+                  icon: HomeIcon,
                   color: "primary"
                 }
               ].map((feature, i) => (
@@ -253,7 +272,7 @@ export default function Home() {
         <section className="py-24 px-6 bg-black/40 border-y border-white/5">
           <div className="container mx-auto max-w-5xl">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-5xl font-bold">Bagaimana Cara Kerjanya?</h2>
+              <h2 className="text-3xl md:text-5xl font-bold">Tiga Langkah Menuju <span className="text-primary glow-text-primary">Rumah Pintar</span></h2>
             </div>
             
             <div className="relative">
@@ -264,21 +283,21 @@ export default function Home() {
                 {[
                   {
                     step: "01",
-                    title: "Pasang & Hubungkan",
-                    desc: "Pasang smart relay atau colokan pintar kami di panel listrik atau stopkontak Anda.",
+                    title: "Instalasi Mudah",
+                    desc: "Pasang perangkat keras pintar kami di panel atau sakelar rumah Anda.",
                     icon: Zap
                   },
                   {
                     step: "02",
-                    title: "Sinkronisasi Cloud",
-                    desc: "Buka aplikasi dan integrasikan berbagai perangkat Anda ke dalam satu platform.",
+                    title: "Integrasi Platform",
+                    desc: "Hubungkan semua ruangan dan perangkat ke dalam satu aplikasi cerdas kami.",
                     icon: Cloud
                   },
                   {
                     step: "03",
-                    title: "Pantau & Hemat",
-                    desc: "Sistem akan secara otomatis membaca metrik energi Anda dan mengirimkannya ke dashboard.",
-                    icon: BarChart3
+                    title: "Kendali Penuh",
+                    desc: "Perangkat keras dapat langsung dikontrol secara jarak jauh dengan smartphone.",
+                    icon: Smartphone
                   }
                 ].map((item, i) => (
                   <motion.div 
@@ -315,10 +334,19 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-4xl md:text-6xl font-bold mb-10 leading-tight"
+              className="text-4xl md:text-6xl font-bold mb-6 leading-tight"
             >
               Siap Memangkas Tagihan Listrik Anda Bulan Depan?
             </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.05 }}
+              className="text-lg text-muted-foreground mb-10 max-w-xl mx-auto"
+            >
+              Bergabunglah dengan pemilik rumah cerdas lainnya yang telah memaksimalkan efisiensi energi dan kemandirian daya mereka.
+            </motion.p>
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -327,10 +355,7 @@ export default function Home() {
               className="flex flex-col sm:flex-row items-center justify-center gap-4"
             >
               <Button size="lg" className="w-full sm:w-auto bg-primary text-primary-foreground hover:bg-primary/90 h-14 px-8 text-base shadow-[0_0_30px_rgba(0,240,255,0.3)]">
-                Jadwalkan Pemasangan
-              </Button>
-              <Button size="lg" variant="outline" className="w-full sm:w-auto h-14 px-8 text-base border-white/10 hover:bg-white/5">
-                Konsultasi Gratis Sekarang <ArrowRight className="w-4 h-4 ml-2" />
+                Konsultasi Instalasi Gratis Sekarang <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </motion.div>
           </div>
