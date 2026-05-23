@@ -188,7 +188,18 @@ pnpm --filter @workspace/smart-energy run build
 
 ---
 
+## Dokumentasi Tambahan
+
+- **[Chatbot PRD](./.local/tasks/chatbot-prd.md)** — Product Requirements Document lengkap untuk SESS Advisor (target audience, conversation flow, RAG pipeline, system prompt, success metrics, roadmap).
+- **[Business Case](./BUSINESS_CASE.md)** — Dokumen business case stakeholder-ready untuk SESS.
+
+---
+
 ## Kontak
 
 Untuk konsultasi instalasi, hubungi kami melalui WhatsApp:
 **[wa.me/6282116140638](https://wa.me/6282116140638)**
+
+### Ingin mencoba chatbot SESS Advisor?
+
+Versi *live preview* chatbot saat ini berjalan di lingkungan Replit dan belum di-deploy ke domain publik. Untuk melihat dan mencoba demo interaktifnya, silakan hubungi kami melalui WhatsApp di nomor di atas dan minta **"link live preview SESS Advisor di Replit"** — tim kami akan mengirimkan tautannya.
