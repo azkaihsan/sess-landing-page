@@ -203,7 +203,7 @@ The chatbot operates under a system prompt that defines:
 
 | Layer | Technology | Notes |
 |-------|-----------|-------|
-| LLM | Google Gemini (`gemini-1.5-flash` or `gemini-2.0-flash`) | Via `google-generativeai` Python SDK |
+| LLM | Google Gemini (`gemini-2.5-flash`) | Via `google-generativeai` Python SDK |
 | Orchestration | LangChain (Python) | Chains, memory, retrieval |
 | Embeddings | `models/text-embedding-004` (Gemini) | Same API key as LLM |
 | Vector Store | **ChromaDB** | Uses **SQLite** as default backend storage — no separate DB needed |
