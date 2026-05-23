@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Zap, Activity, Home as HomeIcon, Smartphone, Cloud, ArrowRight, ShieldCheck, BarChart3, Clock, SunMedium } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import SessAdvisorChat from "@/components/SessAdvisorChat";
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -384,6 +385,8 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+      <SessAdvisorChat />
     </div>
   );
 }

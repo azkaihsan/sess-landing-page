@@ -1,0 +1,12 @@
+{
+  "name": "@workspace/sess-chatbot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "python -m app.main",
+    "seed": "python -m app.seed_knowledge",
+    "build": "python -m app.seed_knowledge",
+    "start": "python -m app.main",
+    "typecheck": "echo 'no typecheck for python service'"
+  }
+}

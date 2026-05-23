@@ -1,0 +1,27 @@
+kind = "api"
+previewPath = "/api/chat"
+title = "SESS Advisor Chatbot"
+version = "1.0.0"
+id = "artifacts/sess-chatbot"
+
+[[services]]
+name = "Chatbot Service"
+localPort = 8090
+paths = ["/api/chat"]
+
+[services.development]
+run = "pnpm --filter @workspace/sess-chatbot run dev"
+
+[services.production]
+
+[services.production.build]
+args = ["pnpm", "--filter", "@workspace/sess-chatbot", "run", "build"]
+
+[services.production.run]
+args = ["bash", "-lc", "cd artifacts/sess-chatbot && exec python -m app.main"]
+
+[services.production.run.env]
+PORT = "8090"
+
+[services.production.health.startup]
+path = "/api/chat/healthz"
